@@ -21,7 +21,7 @@ namespace Kitaláló
             while (true)
             {
                 Console.Write("Tipp: ");
-                tipp = Console.ReadLine().ToLower();
+                tipp = Console.ReadLine();
                 if (tipp == "stop")
                 {
                     Console.WriteLine("Játék leállítva.");
